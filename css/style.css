@@ -738,6 +738,10 @@ ul {
     margin-bottom: 60px;
 }
 
+.contact-box h5{
+    text-align: center;
+}
+
 .contact-box a{
     text-decoration: none;
     color: #aaaaaa;
@@ -961,6 +965,10 @@ textarea{
 
     .resume-wrapper-left {
         padding-right: 13px;
+    }
+
+    .single-resume{
+        min-height: 190px;
     }
 
     .right-margin {
@@ -1374,6 +1382,10 @@ textarea{
     .copyright p {
         font-size: 15.5px;
     }
+
+    .page-back {
+        bottom: 20px;
+    }
 }
 
 @media(max-width: 480px){
@@ -1383,6 +1395,12 @@ textarea{
 
     .masthead h2 {
         font-size: 43px;
+    }
+}
+
+@media(max-width: 400px){
+    .section-title h2{
+        font-size: 35px;
     }
 }
 
@@ -1410,6 +1428,10 @@ textarea{
 }
 
 @media(max-width: 380px){
+    .section-title h2{
+        font-size: 34px;
+    }
+
     .header .navbar-brand {
         font-size: 25px;
     }
@@ -1425,6 +1447,21 @@ textarea{
 
     .profile-description li {
         font-size: 9.5px;
+    }
+
+    .page-back{
+        right: 23px;
+    }
+}
+
+@media(max-width: 370px){
+    .section-title h2{
+        font-size: 33px;
+    }
+
+    .page-back {
+        width: 35px;
+        height: 35px;
     }
 }
 
@@ -1442,31 +1479,89 @@ textarea{
         font-size: 34px;
     }
 
+    .section-title h2{
+        font-size: 32px;
+    }
+
     .profile-description li {
         font-size: 9px;
     }
 }
 
-@media(max-width: 340px){
-    .masthead h3 {
-        font-size: 15px;
-    }
-
-    .masthead h2 {
-        font-size: 32px;
+@media(max-width: 350px){
+    .section-title h2{
+        font-size: 31px;
     }
 }
 
-@media(max-width: 320px){
+@media(max-width: 340px){
+    .masthead h3 {
+        font-size: 13px;
+    }
+
     .masthead h2 {
         font-size: 30px;
     }
 
     .section-title h2{
-        font-size: 33px;
+        font-size: 30px;
+    }
+
+    .single-resume h5{
+        font-size: 19px;
+    }
+
+    .page-back {
+        width: 32px;
+        height: 32px;
+        right: 15px;
+    }
+
+    .page-back i{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 330px){
+    .masthead h3 {
+        font-size: 12px;
+    }
+
+    .masthead h2 {
+        font-size: 29px;
+    }
+
+    .section-title h2{
+        font-size: 29px;
+    }
+
+    .work-start h2 {
+        font-size: 34px;
+    }
+    
+    .page-back {
+        bottom: 2px;
+    }
+}
+
+@media(max-width: 320px){
+    .masthead h2 {
+        font-size: 28px;
+    }
+
+    .masthead h3 {
+        font-size: 11px;
+    }
+
+    .section-title h2{
+        font-size: 28px;
     }
 
     .navbar-collapse{
         max-width: 230px;
+    }
+
+    .single-resume h5 {
+        font-size: 18px;
     }
 }
