@@ -70,8 +70,8 @@ $(window).scroll(function(){
                       lastId = id;
                       // Set/remove active class
                       $(menuItems)
-                      .parent().removeClass("nav-item active")
-                      .end().filter("[href='#"+id+"']").parent().addClass("nav-item active");
+                      .parent().removeClass("nav-link")
+                      .end().filter("[href='#"+id+"']").parent().addClass("nav-link");
                   }      
       
               });
